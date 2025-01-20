@@ -13,4 +13,11 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Add form submission functionality
+- Implement a gallery section
+- Add online ordering capability
+- Include a customer review section
+
+## Author
+
+Aaron Brown
