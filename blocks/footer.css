@@ -17,7 +17,7 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
-  font: inherit;
+  font-weight: bold;
 }
 
 .footer__list {
@@ -34,7 +34,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  transition: opacity 0.7s;
+  transition: opacity 0.7;
   cursor: pointer;
 }
 

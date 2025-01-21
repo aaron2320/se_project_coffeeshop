@@ -8,6 +8,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  z-index: 1;
 }
 .header__image {
   position: absolute;
@@ -15,6 +16,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__title {
@@ -29,7 +31,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: italic;
   font-weight: 400;
   letter-spacing: -0.6px;
@@ -49,6 +51,7 @@
 .header__footer {
   margin-top: auto;
   display: flex;
+  align-items: flex-end;
   justify-content: space-between;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;

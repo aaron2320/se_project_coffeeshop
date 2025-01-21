@@ -43,7 +43,7 @@
 }
 
 .form__label {
-  font: inherit;
+  font-weight: 500;
 }
 
 .form__label_type_checkbox {
