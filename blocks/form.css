@@ -16,6 +16,7 @@
   margin: 8px 0 32px;
   border: 1px solid #838383;
   border-radius: 4px;
+  font: inherit;
 }
 
 .form__button {
@@ -27,10 +28,11 @@
   background-color: #187adc;
   color: #fff;
   cursor: pointer;
-  transition: bacground-color 8.5s;
+  transition: bacground-color 0.5s;
+  font: inherit;
 }
 
-.form__button-hover {
+.form__button:hover {
   background-color: #3f96f3;
 }
 
@@ -38,6 +40,10 @@
   border-radius: 2px;
   width: 20px;
   height: 20px;
+}
+
+.form__label {
+  font: inherit;
 }
 
 .form__label_type_checkbox {

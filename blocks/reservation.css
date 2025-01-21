@@ -4,6 +4,7 @@
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .reservation__title {

@@ -6,6 +6,7 @@
   background-image: url(../images/background_header.svg);
   box-sizing: border-box;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
 .header__image {
@@ -23,16 +24,14 @@
   letter-spacing: -0.6px;
   max-width: 729px;
   font-family: "Inter", "Arial", sans-serif;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .header__span-accent {
   display: block;
   font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 72px;
+  font-style: italic;
+  font-weight: 400;
   letter-spacing: -0.6px;
   color: #3f96f3;
 }
